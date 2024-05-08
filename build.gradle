@@ -58,7 +58,7 @@ bootRun {
 
 bootBuildImage {
 	builder = "docker.io/paketobuildpacks/builder-jammy-base"
-	imageName = "${project.name}"
+	imageName = "EdgarTsarukyan/catalog-service"
 	environment = ["BP_JVM_VERSION": "17"]
 
 	docker {
